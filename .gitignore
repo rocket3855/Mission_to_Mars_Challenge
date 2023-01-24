@@ -1,3 +1,7 @@
+# Practice folder and other files not tracked
+practice
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
