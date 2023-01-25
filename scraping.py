@@ -128,10 +128,8 @@ def mars_hemispheres(browser):
         # 3. Write code to retrieve the image urls and titles for each hemisphere.
         for title_elem in title_elems:
             
-            if title_elem.text == 'Back':
-                break
-            elif title_elem.text == '':
-                continue
+            if title_elem.text == 'Back': break
+            elif title_elem.text == '': continue
 
             image = title_elem.parent['href']
             imageTitle = title_elem.text
